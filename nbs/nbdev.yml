@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_hello_world"
+  site-url: "https://jmulqq.github.io/nbdev_hello_world"
+  description: "nbdev test repo"
+  repo-branch: main
+  repo-url: "https://github.com/jmulqq/nbdev_hello_world"
