@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://jmulqq.github.io',
                 'git_url': 'https://github.com/jmulqq/nbdev_hello_world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.my_project': { 'nbdev_hello_world.my_project.say_hello': ( 'core.html#say_hello',
+                                                                                          'nbdev_hello_world/my_project.py')}}}
